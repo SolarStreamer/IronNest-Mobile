@@ -1,0 +1,5 @@
+[
+    { "id": "HE", "name": "High Explosive", "baseVelocity": 600 },
+    { "id": "AP", "name": "Armor Piercing", "baseVelocity": 750 },
+    { "id": "SMK", "name": "Smoke", "baseVelocity": 500 }
+]
