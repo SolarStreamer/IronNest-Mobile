@@ -1,0 +1,8 @@
+[
+    {
+        "name": "Convoy Strike",
+        "description": "Enemy convoy at grid (6,4).",
+        "turretPos": { "x": 0, "y": 0 },
+        "targetPos": { "x": 6, "y": 4 }
+    }
+]
