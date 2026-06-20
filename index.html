@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Iron Nest Mobile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="loadData()">
+
+<h2 id="missionText"></h2>
+
+<label>Shell Type:</label>
+<select id="shellSelect">
+    <option value="HE">High Explosive</option>
+    <option value="AP">Armor Piercing</option>
+    <option value="SMK">Smoke</option>
+</select>
+
+<label>Powder Charge:</label>
+<input type="range" id="powder" min="1" max="5" value="1">
+
+<button onclick="calculateSolution()">Calculate</button>
+
+<p id="output"></p>
+
+<script src="main.js"></script>
+</body>
+</html>
